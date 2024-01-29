@@ -1,15 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
+import { Card } from './components/Card.js';
+import { Alert } from './components/Alert.js';
+import HomeLayout from './components/HomeLayout/HomeLayout.js';
+import DataBinding from './components/DataBinding/DataBinding.js';
+import StyleComponents from './components/StyleComponents/StyleComponents.js';
+import HandleEvent from './components/HandleEvent/HandleEvent.js';
+import StateComponents from './components/StateComponents/StateComponents.js';
+import ChangeColor from './components/StateComponents/ChangeColor.js';
+import ChangeAvatar from './components/StateComponents/ChangeAvatar.js';
+import ChangeCar from './components/ChangeCar/ChangeCar.js';
+// import StateComponents from './components/StateComponents/StateComponents.js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
-    <h3>DIT ME MAY </h3>
+    {/* <HomeLayout />
+    {/* <DataBinding /> */}
+    {/* <StyleComponents />
+    <HandleEvent />
+    <StateComponents />
+    <ChangeColor />
+    <ChangeAvatar /> */}
+
+    <ChangeCar />
   </div>
 
-);
+)
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

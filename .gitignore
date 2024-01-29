@@ -1,3 +1,6 @@
 # liệt kê các file không muốn đẩy lên github
 
 /node_modules
+/.cache
+/.idea
+/.vscode
